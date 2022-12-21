@@ -1,0 +1,2 @@
+#<item name="android:windowBackground">@color/green</item> // to chage background of activity in fragments
+#
