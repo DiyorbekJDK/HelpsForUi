@@ -1,2 +1,2 @@
 #<item name="android:windowBackground">@color/green</item> // to chage background of activity in fragments
-#
+#window.statusBarColor = Color.parseColor("#0E4010") // to change status bar color
