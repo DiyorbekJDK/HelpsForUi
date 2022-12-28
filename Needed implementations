@@ -15,3 +15,6 @@
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3' //Lottie Animation
     def lottieVersion = "3.4.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
+
+id 'kotlin-parcelize' // Parcelize
+id 'kotlin-kapt' //Unknown
