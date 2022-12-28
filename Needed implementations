@@ -3,3 +3,8 @@
 
     // Lifecycle manager
     implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
+    
+    // Binding
+    buildFeatures{
+        viewBinding true
+    }
