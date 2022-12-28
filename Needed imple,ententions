@@ -1,0 +1,5 @@
+// DataStore
+    implementation "androidx.datastore:datastore-preferences:1.0.0"
+
+    // Lifecycle manager
+    implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1"
