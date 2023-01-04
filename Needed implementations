@@ -13,7 +13,7 @@
     implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
     implementation 'androidx.navigation:navigation-ui-ktx:2.5.3'
     implementation 'androidx.navigation:navigation-fragment-ktx:2.5.3' 
-    // import for Indicator
+//Indicator View
     implementation 'com.github.zhpanvip:viewpagerindicator:1.2.1'
  //Lottie Animation
     def lottieVersion = "3.4.0"
