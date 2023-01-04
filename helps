@@ -1,0 +1,3 @@
+//hide statusbar color
+WindowInsetsControllerCompat(window, window.decorView)
+            .hide(WindowInsetsCompat.Type.statusBars())
