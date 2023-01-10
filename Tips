@@ -1,2 +1,9 @@
 #<item name="android:windowBackground">@color/green</item> // to chage background of activity in fragments
 #window.statusBarColor = Color.parseColor("#0E4010") // to change status bar color
+
+
+#How to make random color
+private fun randomColor(): Int {
+        val random = Random()
+        return Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256))
+    }
