@@ -1,0 +1,9 @@
+fun ImageView.toByteArray(): ByteArray {
+    val bitmap = (this.drawable as BitmapDrawable).bitmap
+    val stream = ByteArrayOutputStream()
+    bitmap.compress(Bitmap.CompressFormat.JPEG, 100, stream)
+    return stream.toByteArray()
+}
+fun ByteArray.toBitmap(): Bitmap? {
+    return BitmapFactory.decodeByteArray(this, 0, this.size)
+}
