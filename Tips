@@ -9,3 +9,9 @@ private fun randomColor(): Int {
         val random = Random()
         return Color.argb(255, random.nextInt(256), random.nextInt(256), random.nextInt(256))
     }
+    
+    
+<style name="ShapeAppearanceOverlay.App.circleImageView" parent="">
+    <item name="cornerFamily">cut</item>
+    <item name="cornerSize">50%</item>
+    </style> // shape for ShapableImageView
