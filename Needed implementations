@@ -1,3 +1,9 @@
+//Android connections with volley
+    implementation 'com.android.volley:volley:1.2.1' // volley library
+    implementation 'com.google.code.gson:gson:2.9.0' // json api parser to data class
+    implementation 'com.github.bumptech.glide:glide:4.13.0' // image loader library
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.13.0' // better glide
+
 // DataStore
     implementation "androidx.datastore:datastore-preferences:1.0.0"
 
