@@ -1,3 +1,15 @@
+//Android connections Retrofit
+implementation 'com.squareup.retrofit2:retrofit:2.9.0' // networking
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0' // json parser
+    implementation 'com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.2' // logging service
+
+    implementation 'com.github.bumptech.glide:glide:4.13.2' // image loader library
+    kapt 'com.github.bumptech.glide:compiler:4.13.2'
+
+
+
+
+
 //Android connections with volley
     implementation 'com.android.volley:volley:1.2.1' // volley library
     implementation 'com.google.code.gson:gson:2.9.0' // json api parser to data class
