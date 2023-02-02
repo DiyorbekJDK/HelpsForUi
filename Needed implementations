@@ -5,6 +5,9 @@ implementation 'com.squareup.retrofit2:retrofit:2.9.0' // networking
 
     implementation 'com.github.bumptech.glide:glide:4.13.2' // image loader library
     kapt 'com.github.bumptech.glide:compiler:4.13.2'
+    
+    //Binding Upgrade
+    implementation 'com.android.databinding:viewbinding:7.4.0'
 
 
 
