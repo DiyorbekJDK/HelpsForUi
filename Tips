@@ -1,8 +1,15 @@
 #<item name="android:windowBackground">@color/green</item> // to chage background of activity in fragments
+
 #window.statusBarColor = Color.parseColor("#0E4010") // to change status bar color
+
+
 # WindowInsetsControllerCompat(window, window.decorView)
             .hide(WindowInsetsCompat.Type.statusBars()) // hide status bar
 
+window.decorView.apply {
+            // Hides the navigation bar.
+            systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
+        }
 
 #How to make random color
 private fun randomColor(): Int {
