@@ -11,6 +11,11 @@ window.decorView.apply {
             systemUiVisibility = View.SYSTEM_UI_FLAG_HIDE_NAVIGATION
         }
 
+    window.setFlags(
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS,
+            WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS
+        ) //hide status bar color
+
 val windowInsetsController =
             WindowCompat.getInsetsController(window, window.decorView)
         // Configure the behavior of the hidden system bars.
